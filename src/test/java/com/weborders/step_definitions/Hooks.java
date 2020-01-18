@@ -10,7 +10,7 @@ public class Hooks {
     @Before
     public void setup (){
         Driver.get().manage().window().maximize();
-        Driver.get();
+        Driver.get().get;
 
     }
     //after hook
