@@ -4,6 +4,8 @@ import com.weborders.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
 
 
@@ -12,6 +14,7 @@ public class Hooks {
         Driver.get().manage().window().maximize();
         Driver.get();
         Driver.close();
+        Driver.get().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
     }
     //after hook
