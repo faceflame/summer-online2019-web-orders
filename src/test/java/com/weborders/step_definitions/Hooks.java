@@ -12,10 +12,15 @@ public class Hooks {
     @Before
     public void setup (){
         Driver.get().manage().window().maximize();
+<<<<<<< HEAD
         Driver.get();
         Driver.close();
         Driver.get().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         aaaa
+=======
+        Driver.get().get;
+        system.
+>>>>>>> 9fa8e25860add770b58406515c39d6c63da4edc4
 
     }
     //after hook
