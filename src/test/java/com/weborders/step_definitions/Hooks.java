@@ -11,6 +11,7 @@ public class Hooks {
     public void setup (){
         Driver.get().manage().window().maximize();
         Driver.get().get;
+        system.
 
     }
     //after hook
