@@ -25,7 +25,6 @@ public class LoginStepDefinitions {
     public void i_verify_that_logo_is_displayed(String string) {
         Assert.assertEquals("Logo test is not correct", string, loginPage.getPageLogoText());
     }
-
 }
 
 
